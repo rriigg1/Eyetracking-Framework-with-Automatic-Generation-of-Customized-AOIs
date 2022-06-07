@@ -1,4 +1,17 @@
-# Eye Tracking Analysis Framework for Video Portraits
+# Automatic Generation of Customized AOIs and Evaluation of Observers' Gaze in Portrait Videos
+If you use this in your research please cite:
+```
+@inproceedings{wohler2022automatic,
+  title = {Automatic Generation of Customized {AOI}s and Evaluation of Observers' Gaze in Portrait Videos},
+  author = {W{\"o}hler, Leslie and von Estorff, Moritz and Castillo, Susana  and Magnor, Marcus},
+  booktitle = {Proceedings of the {ACM} on Human-Computer Interaction },
+  doi = {10.1145/3530885},
+  volume = {6},
+  number = {{ETRA}},
+  pages = {144:1--144:14},
+  year = {2022}
+}
+```
 
 ### Needed python packages:
 * [xlrd](https://xlrd.readthedocs.io/en/latest/): `pip install xlrd`
