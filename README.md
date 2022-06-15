@@ -12,6 +12,7 @@ If you use this in your research please cite:
   year = {2022}
 }
 ```
+The paper can be found at: [https://graphics.tu-bs.de](https://graphics.tu-bs.de/publications/wohler2022automatic)
 
 ### Needed python packages:
 * [xlrd](https://xlrd.readthedocs.io/en/latest/): `pip install xlrd`
@@ -26,6 +27,10 @@ If you use this in your research please cite:
     * Tkinter comes with Python when using Windows
 
 Or use `pip install -r requirements.txt` to install all requirements besides Tkinter
+
+#### Dlib shape prediction model
+A trained Dlib shape predictor model is needed to produce the landmarks.
+Such a model can be found at: [dlib.net](https://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
 
 ### Usage:
 The framework can either be imported as a package directly:
